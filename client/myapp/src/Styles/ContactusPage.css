@@ -1,0 +1,146 @@
+
+.form {
+    width: 40%;
+    margin: auto;
+    margin-top: 0.5%;
+    text-align: center;
+  }
+  
+  label {
+    color: black;
+    font-size: 2vw;
+  }
+  
+  #fName {
+    color: black;
+    border: 1px solid;
+    height: 1.5vw;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+  
+  #lName {
+    color: black;
+    border: 1px solid;
+    height: 1.5vw;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    margin-bottom: 1vw;
+  }
+  
+  
+  #email {
+    border: 1px solid;
+    height: 1.5vw;
+    border-radius: 1vw;
+  }
+  
+  
+  
+  #concern {
+    border: 1px solid;
+    height: 5vw;
+    width: 70%;
+    border-radius: 1vw;
+    resize: both;
+  }
+  
+  input {
+    width: 50%;
+    margin-bottom: 1%;
+  }
+  
+  #submit {
+    background-color: black;
+    width: 50%;
+    height: 2vw;
+    font-size: 1.7vw;
+    border-radius: 1vw;
+    color: white;
+  }
+  
+  
+  
+  h1 {
+    animation: colorChange 3s ease-in-out infinite;
+  }
+  
+ 
+  
+  #submit {
+    animation: bgChange 3s ease-in-out infinite;
+  }
+  
+  
+  @media only screen and (max-width: 770px) {
+    .form {
+      width: 70%;
+    }
+  
+    label {
+      font-size: 3.5vw;
+    }
+  
+    #fName,
+    #lName,
+    #email{
+      height: 5vw;
+      border-radius: 2vw;
+    }
+  
+    #concern {
+      height: 20vw;
+      width: 90%;
+      border-radius: 2vw;
+    }
+  
+    input {
+      width: 70%;
+    }
+  
+    #submit {
+      background-color: #f05;
+      width: 60%;
+      height: 5vw;
+      font-size: 3vw;
+      border-radius: 2vw;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    .form {
+      width: 90%;
+      margin-top: 20%;
+    }
+  
+    label {
+      font-size: 6vw;
+    }
+  
+    #fName,
+    #lName,
+    #email {
+      height: 5vw;
+      border-radius: 2vw;
+    }
+  
+    #concern {
+      background-color: #f05;
+      height: 30vw;
+      width: 95%;
+      border-radius: 4vw;
+    }
+  
+    input {
+      width: 80%;
+    }
+  
+    #submit {
+      width: 80%;
+      height: 8vw;
+      font-size: 5vw;
+      border-radius: 4vw;
+    }
+  }
